@@ -12,6 +12,8 @@ A C++ simulation of the **Chaos Game** using the **SFML 3.0** library. This proj
     * Real-time point generation (250 points per frame).
 * **State Management:** Double-tap `ESC` to stop simulation and return to the main menu.
 
+<img width="559" height="415" alt="Screenshot 2026-05-02 at 5 36 37 PM" src="https://github.com/user-attachments/assets/962b40a9-93cf-47b6-8611-84bb5afc607a" />
+
 ## Extra Credit Features
 
 * **Higher-Order Polygons:** Support for Pentagons through Decagons.
@@ -22,6 +24,9 @@ A C++ simulation of the **Chaos Game** using the **SFML 3.0** library. This proj
     * **Decagon:** 0.764
 * **Advanced Constraints:** For polygons with 4 or more sides, the algorithm prevents the same vertex from being chosen twice in a row, ensuring the fractal structure emerges correctly.
 * **Dynamic Vertex Shapes:** Vertex markers change their point count to match the selected polygon type (e.g., pentagon vertices appear as pentagons).
+* Example (pentagon):
+
+<img width="651" height="457" alt="Screenshot 2026-05-02 at 5 37 05 PM" src="https://github.com/user-attachments/assets/66d23940-cbb3-479d-aca2-0d579b7ba0fb" />
 
 ## How to Build and Run
 
